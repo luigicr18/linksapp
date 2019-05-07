@@ -1,0 +1,15 @@
+.App-logo {
+    animation: App-logo-spin-isFetching infinite 20s linear;
+    height: 44vmin;
+    position: relative;
+    top: 250px;
+}
+
+@keyframes App-logo-spin-isFetching {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(8360deg);
+    }
+}
